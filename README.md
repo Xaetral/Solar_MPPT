@@ -21,5 +21,5 @@ Second Method:
 Using a buck converter the MPP can be tracked by continuously measuring voltage and current and computing its derivative.  
 If it is going up, that means the switch is in the right state.  
 If it is going down, that means the switch must be switched.  
-Note that in real condition with varying amount of illumination and thus power output, the derivative must be compared to its previous value instead of zero.  
+Note that for it to not be affected by variation in solar illumination the control loop needs to be substantially faster than these variations.  
 ![buck mppt image](https://raw.githubusercontent.com/Xaetral/Solar_MPPT/refs/heads/main/buck.png "Buck MPPT")  
