@@ -18,8 +18,12 @@ The image below shows an equivalent circuit of a 100W solar panel with a MPP of 
 
 Second Method:
 
-Using a buck converter the MPP can be tracked by continuously measuring voltage and current and computing its derivative.  
+Still using a boost converter the MPP can be tracked by continuously measuring voltage and current and computing its derivative.  
 If it is going up, that means the switch is in the right state.  
 If it is going down, that means the switch must be switched.  
 Note that for it to not be affected by variation in solar illumination the control loop needs to be substantially faster than these variations.  
-![buck mppt image](https://raw.githubusercontent.com/Xaetral/Solar_MPPT/refs/heads/main/buck.png "Buck MPPT")  
+![derivative mppt image](https://raw.githubusercontent.com/Xaetral/Solar_MPPT/refs/heads/main/derivative.png "Derivative MPPT")  
+
+Third Method:
+
+Placing a capacitor on the panel output allows discontinuous input current like it is the case with a buck converter.
