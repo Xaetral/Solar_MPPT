@@ -1,4 +1,4 @@
-# FullDuplex_Signaling
+# Solar_MPPT
 
 First Method:
 
