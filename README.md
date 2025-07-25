@@ -1,4 +1,4 @@
-# Solar_MPPT
+# Solar MPPT
 
 First Method:
 
