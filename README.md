@@ -27,3 +27,4 @@ Note that for it to not be affected by variation in solar illumination the contr
 Third Method:
 
 Placing a capacitor on the panel output allows discontinuous input current like it is the case with a buck converter.
+![buck converter mppt image](https://raw.githubusercontent.com/Xaetral/Solar_MPPT/refs/heads/main/buck.png "Buck Converter MPPT")  
